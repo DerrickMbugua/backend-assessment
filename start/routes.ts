@@ -24,5 +24,5 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
-// Resource contains routes for all crud operation
+// Resource route contains routes for all crud operations
 Route.resource('/users', 'UsersController').apiOnly()
